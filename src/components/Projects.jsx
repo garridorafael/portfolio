@@ -1,5 +1,6 @@
 import styles from "./projects.module.css";
 import { projects } from "../data/projects";
+import gitlogo from "../assets/git-icon.png"
 
 export function Projects() {
   return (
@@ -10,7 +11,7 @@ export function Projects() {
           <li className={styles.projectCard}>
             <div className={styles.box}>
             <span className={styles.projectName}>{project.name}</span>
-            <img src="src\assets\git-icon.png" alt="github logo" />
+            <img src={gitlogo} alt="github logo" />
             </div>
             <span>{project.descricao}</span>
             <a href="#" className={styles.projectLink}>Saiba mais</a>
