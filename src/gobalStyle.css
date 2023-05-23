@@ -1,0 +1,43 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p,
+a, img, i, ol, ul, li,
+fieldset, form, label, legend,
+article, aside, 
+figure, figcaption, footer, header, nav, section{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    list-style: none;
+}
+
+:root{
+    --color-brand-1: #6880FF;
+    --color-brand-2: #7C91FF;
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    --color-grey-1: #ffffff80;
+}
+
+#root{
+    background-color: var(--color-black);
+    color: var(--color-white);
+    height: 100%;
+    min-width: 390px;
+    padding-bottom: 16px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 767px) {
+    #root {
+      display: flex;
+      min-width: 768px;
+      flex-direction: column;
+    }
+
+  }

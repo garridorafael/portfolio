@@ -1,0 +1,69 @@
+.title {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 51px;
+  padding-top: 65px;
+  margin-bottom: 20px;
+}
+
+.stackCard {
+  border: 1px solid var(--color-grey-1);
+  border-radius: 25px;
+  width: 315px;
+  padding: 30px 0px;
+  display: flex;
+  gap: 30px;
+  padding-left: 25px;
+}
+
+.sectionContainer {
+  width: 390px;
+  background-color: var(--color-black);
+  padding-left: 25px;
+  box-sizing: border-box;
+  padding-bottom: 30px;
+}
+
+.stackName {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.stackList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (min-width: 767px) {
+  .sectionContainer {
+    width: 760px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .title {
+    margin-bottom: 60px;
+  }
+}
+
+@media (min-width: 1023px) {
+  .sectionContainer {
+    width: 896px;
+    align-self: center;
+    align-items: flex-start;
+    margin-top: 40px;
+    padding: 0px;
+  }
+
+  .stackList {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .stackCard {
+    width: 250px;
+  }
+}

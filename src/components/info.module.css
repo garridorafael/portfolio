@@ -1,0 +1,43 @@
+.infoContainer{
+    margin-top: 55px;
+    margin-left: 25px;
+}
+
+.userName{
+    font-size: 15px;
+    color: var(--color-brand-1);
+}
+
+.title{
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 51px;
+    margin-top: 15px;
+}
+
+.paragraph{
+    margin: 35px 0px;
+}
+
+@media (min-width: 767px) {
+    .infoContainer{
+        width: 740px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+  }
+
+  @media (min-width: 1023px) {
+    .infoContainer{
+        width: 440px;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: calc((100% - 896px) / 2);
+    }
+  }
