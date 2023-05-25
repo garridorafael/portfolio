@@ -11,8 +11,10 @@ function App() {
   return (
     <>
       <Header />
+      <div className="container">
       <Info />
       <Banner />
+      </div>
       <About />
       <Stacks />
       <Projects />

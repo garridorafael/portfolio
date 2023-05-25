@@ -9,7 +9,7 @@
 .sectionContainer{
     width: 390px;
     background-color: var(--color-black);
-    padding-left: 25px;
+    /* padding-left: 25px; */
     box-sizing: border-box;
 }
 
@@ -19,10 +19,11 @@
 
 @media (min-width: 767px) {
     .sectionContainer{
-        width: 760px;
+        width: 750px;
         margin-bottom: 40px;
         box-sizing: border-box;
-        padding-right: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
   }
 

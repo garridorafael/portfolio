@@ -20,11 +20,15 @@
 @media (min-width: 767px) {
   .headerContainer {
     flex-direction: row;
-    padding: 8px 12px;
+    padding: 8px 20px;
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
     height: 55px;
+  }
+
+  .linksContainer{
+    width: 50%;
   }
 
   .logo {
@@ -37,7 +41,7 @@
     align-self: center;
     width: 896px;
     flex-direction: row;
-    padding: 8px 12px;
+    padding: 8px 0px;
     box-sizing: border-box;
     align-items: center;
     justify-content: space-between;
@@ -50,6 +54,6 @@
   }
 
   .linksContainer {
-    width: 300px;
+    width: 100%;
   }
 }

@@ -24,6 +24,15 @@ figure, figcaption, footer, header, nav, section{
     --color-grey-1: #ffffff80;
 }
 
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 896px;
+    align-self: center;
+}
+
 #root{
     background-color: var(--color-black);
     color: var(--color-white);
@@ -36,8 +45,25 @@ figure, figcaption, footer, header, nav, section{
 @media (min-width: 767px) {
     #root {
       display: flex;
-      min-width: 768px;
+      width: 100%;
       flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
+    .container{
+        width: 896px;
+        justify-content: center;
+    }
+  }
 
+  @media (min-width: 1023px) {
+    #root{
+        padding-right: 25px;
+        padding-left: 25px;
+        box-sizing: border-box;
+        max-width: 1440px;
+    }
+    .container{
+        justify-content: space-between;
+    }
   }

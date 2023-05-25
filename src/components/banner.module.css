@@ -20,23 +20,21 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }  
+    }
   }
 
   @media (min-width: 1023px) {
     .sectionContainer{
         width: 410px;
-        position: absolute;
-        left: calc(119% - 896px);
-        top: 120.44px;
+        align-items: flex-end;
     }
   }
 
   @media (min-width: 1439px) {
     .sectionContainer{
         width: 410px;
-        position: absolute;
+        /* position: absolute;
         left: calc(118% - 896px);
-        top: 120.44px;
+        top: 120.44px; */
     }
   }
