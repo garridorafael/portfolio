@@ -1,6 +1,5 @@
 .infoContainer{
     margin-top: 55px;
-    /* margin-left: 25px; */
 }
 
 .userName{
@@ -40,6 +39,5 @@
         box-sizing: border-box;
         justify-content: flex-start;
         align-items: flex-start;
-        /* margin-left: calc((100% - 896px) / 2); */
     }
   }

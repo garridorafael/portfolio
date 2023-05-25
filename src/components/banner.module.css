@@ -33,8 +33,5 @@
   @media (min-width: 1439px) {
     .sectionContainer{
         width: 410px;
-        /* position: absolute;
-        left: calc(118% - 896px);
-        top: 120.44px; */
     }
   }

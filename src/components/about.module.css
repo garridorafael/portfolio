@@ -9,7 +9,6 @@
 .sectionContainer{
     width: 390px;
     background-color: var(--color-black);
-    /* padding-left: 25px; */
     box-sizing: border-box;
 }
 
