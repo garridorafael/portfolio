@@ -1,5 +1,6 @@
 .infoContainer{
     margin-top: 55px;
+    padding-left: 8px;
 }
 
 .userName{
@@ -8,7 +9,7 @@
 }
 
 .title{
-    font-size: 42px;
+    font-size: 48px;
     font-weight: 800;
     line-height: 51px;
     margin-top: 15px;

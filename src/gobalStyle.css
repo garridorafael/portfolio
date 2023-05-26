@@ -24,6 +24,10 @@ figure, figcaption, footer, header, nav, section{
     --color-grey-1: #ffffff80;
 }
 
+body{
+    background-color: var(--color-black);
+}
+
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -31,6 +35,7 @@ figure, figcaption, footer, header, nav, section{
     justify-content: space-between;
     max-width: 896px;
     align-self: center;
+    padding-left: 12px;
 }
 
 #root{
@@ -40,6 +45,11 @@ figure, figcaption, footer, header, nav, section{
     min-width: 390px;
     padding-bottom: 16px;
     box-sizing: border-box;
+    padding: 0px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (min-width: 767px) {
