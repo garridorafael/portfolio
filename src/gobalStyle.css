@@ -32,7 +32,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     max-width: 896px;
     align-self: center;
     padding-left: 12px;
